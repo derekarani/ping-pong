@@ -1,40 +1,66 @@
 <!DOCTYPEhtml5>
 <html>
+
 <head>
   <title>Ping Pong</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-<link rel="stylesheet" href="css/styles.css" type="text/css">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
 
-<script src="js/jquery-3.2.1.js"></script>
+  <script src="js/jquery-3.2.1.js"></script>
 
-<script src="js/scripts.js"></script>
+  <script src="js/scripts.js"></script>
 </head>
+
 <body>
-  <h1>Ping Pong Game</h1>
-  <h2>Instructions</h2>
-  <p>First enter a number into the box below . The game will then return from 1 upto the number entered in this format<p>
+  <div class="hero">
+    
+  </div>
 
-  <ul>
-    <li>A number divisible by there will return Ping</li>
-    <li>A number divisible by 5 will return pong</li>
-    <li>A number divisible by 15 will return Ping Pong</li>
+  <div class="container">
+    <div class="col-md-4 first">
+      <h2>About Ping Pong <h2>
+        <h4>Created By</h4>
+        <p>Derrick Karani</p>
+        <h4>GitHub Username url</h4>
+        <a href="https://github.com/derekarani">Derekarani</a>
+        <h4>Language Used</h4>
+        <P>Javascript</p>
 
-  </ul>
-  <form id="pong" >
-    <div class="form-group">
-      <label for="value">Enter a number here</label>
-      <input id="ping" type="text" required="required">
+
     </div>
-    <button class="btn btn-info" type="submit">Play</button>
-    <button class="btn btn-default" type="submit"><a href="index.html">Clear</a></button>
+    <div class="col-md-8 first">
+      <h1>Ping Pong Game</h1>
+      <h2>Instructions</h2>
+      <p>First enter a number into the box below . The game will then return from 1 upto the number entered in this format
+        <p>
 
-  </form>
-  <div class="return">
-    <ul class="result">
+          <ul>
+            <li>A number divisible by there will return Ping</li>
+            <li>A number divisible by 5 will return pong</li>
+            <li>A number divisible by 15 will return Ping Pong</li>
 
-    </ul>
+          </ul>
+          <form id="pong">
+            <div class="form-group">
+              <label for="value">Enter a number here</label>
+              <input id="ping" type="text" required="required">
+            </div>
+            <button class="btn btn-info" type="submit">Play</button>
+            <a class="der" href="index.html" ><button class="btn btn-default" type="button">Clear</button></a>
+
+          </form>
+          <div class="return">
+            <ul class="result">
+
+            </ul>
+          </div>
+    </div>
+
+
+
   </div>
 
 </body>
+
 </html>

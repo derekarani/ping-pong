@@ -23,7 +23,7 @@
   $(document).ready(function() {
     $("form#pong").submit(function(event) {
       event.preventDefault();
-      
+
       var number = parseInt($("input#ping").val());
       var output =game(number)
 

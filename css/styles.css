@@ -1,0 +1,21 @@
+.der {
+  color: black;
+}
+
+.first{
+  margin-top: 7%;
+
+}
+body{
+
+
+}
+
+.hero{
+  height: 500px;
+  width: 100%;
+  background-image: url(../img/2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
